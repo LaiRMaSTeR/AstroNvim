@@ -34,3 +34,13 @@ git clone https://github.com/<your_user>/<your_repository> ~/.config/nvim/lua/us
 ```shell
 nvim
 ```
+
+#### Python linter settings
+
+Set 
+
+'include-system-site-packages = true' 
+
+in '~/.local/share/nvim/mason/packages/python-lsp-server/venv/pyvenv.cfg'
+
+in user/init.lua under '["config"]' in the lsp are some settings, including errors and warnings to be ignored by the linter. 

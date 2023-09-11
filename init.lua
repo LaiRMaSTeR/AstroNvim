@@ -52,6 +52,21 @@ return {
     servers = {
       -- "pyright"
     },
+    ["config"] = {
+      pylsp = {
+        settings = {
+          pylsp = {
+            plugins = {
+              pycodestyle = {
+                ignore = {
+                  "E501", "E503", "W293", "E303", "E741"
+                },
+              }
+            }
+          }
+        }
+      }
+    }
   },
 
   -- Configure require("lazy").setup() options
