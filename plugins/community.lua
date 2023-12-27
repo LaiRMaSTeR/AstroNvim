@@ -6,4 +6,8 @@ return {
 
   -- { import = "astrocommunity.colorscheme.catppuccin" },
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
+  {import = "astrocommunity.scrolling.nvim-scrollbar"},
+  {import = "astrocommunity.colorscheme.vscode-nvim"},
+  {import = "astrocommunity.color.transparent-nvim"},
+  {import = "astrocommunity.markdown-and-latex.vimtex"},
 }
