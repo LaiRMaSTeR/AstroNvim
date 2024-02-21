@@ -10,6 +10,7 @@ return {
         "lua_ls",
         -- "pyright",
         "pylsp",
+        "rust_analyzer",
       })
     end,
   },
